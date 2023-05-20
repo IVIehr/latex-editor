@@ -8,7 +8,7 @@ const Output = ({ content }) => {
 
   let doc = parse(content, { generator: generator }).htmlDocument();
   return (
-    <div className="h-screen bg-gray-200 p-4">
+    <div className="h-screen bg-violet-50 p-4">
       <iframe
         className="w-full h-full border-0"
         title="Output"

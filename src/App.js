@@ -11,10 +11,10 @@ const App = () => {
 
   return (
     <div className="flex h-screen overflow-hidden">
-      <div className="w-1/2 bg-gray-900 text-white h-full">
+      <div className="w-1/2 text-white">
         <Editor onRender={handleRender} />
       </div>
-      <div className="w-1/2 bg-gray-200 h-full">
+      <div className="w-1/2 bg-gray-200">
         <Output content={renderedContent} />
       </div>
     </div>
